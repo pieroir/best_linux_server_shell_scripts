@@ -32,7 +32,7 @@ then
         mv wordpress/* /var/www/html/$siteName
         rm wordpress -r
         echo "------wordpress replaced"
-        mysql -u root -pM@s00d13600@2#4$ -e "CREATE DATABASE $nameConf CHARACTER SET utf8 COLLATE utf8_general_ci;"
+        mysql -u root -pPASSWORD-e "CREATE DATABASE $nameConf CHARACTER SET utf8 COLLATE utf8_general_ci;"
         echo "------database maked with name = $siteName"
         chown root:www-data /var/www/html/$siteName -r
         chmod 775 /var/www/html/$siteName -r
