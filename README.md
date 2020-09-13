@@ -1,7 +1,7 @@
 # best_linux_server_shell_scripts
 best of linux server shell script for DevOps
 
-<h1> SHLE 1 : the script that make and config ngnix and wordpress  </h1>
+<h1> SHELL SCRIPT 1 : the script that make and config ngnix and wordpress  </h1>
 <h3> HOW TO : </h3>
 <ul> 
   <li>1 - put default.example in /etc/nginx/sites-available </li>
